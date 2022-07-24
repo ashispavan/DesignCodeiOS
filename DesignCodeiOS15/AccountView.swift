@@ -37,10 +37,36 @@ struct AccountView: View {
                 .frame(maxWidth: .infinity)
                 .padding()
                 Section {
-                    Label("Settings", systemImage: "gear")
-                    Label("Billing", systemImage: "creditcard")
+                    NavigationLink(destination: ContentView()) {
+                        Label("Settings", systemImage: "gear")
+     
+                    }
+                    NavigationLink {
+                        Text("Billing View")
+                    } label: {
+                        Label("Billing", systemImage: "creditcard")
+                    }
                     Label("Help", systemImage: "questionmark")
                 }
+                
+                Section {
+                    Link(destination: URL(string: "http://www.google.com")!) {
+                        HStack {
+                            Label("Google", systemImage: "house")
+                            Spacer()
+                            Image(systemName: "link")
+                                .foregroundColor(.secondary)
+                        }
+                    }
+                    Link(destination: URL(string: "http://www.youtube.com")!) {
+                        HStack {
+                            Label("YouTube", systemImage: "tv")
+                            Spacer()
+                            Image(systemName: "link")
+                                .foregroundColor(.secondary)
+                        }
+                    }
+                }.listRowSeparator(.hidden)
             }
             .navigationTitle("Account")
         }
