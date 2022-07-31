@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8458792D2896EF2F00862B50 /* HexagonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8458792C2896EF2F00862B50 /* HexagonView.swift */; };
 		848C13EE2855B41F002A2EF4 /* DesignCodeiOS15App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848C13ED2855B41F002A2EF4 /* DesignCodeiOS15App.swift */; };
 		848C13F02855B41F002A2EF4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848C13EF2855B41F002A2EF4 /* ContentView.swift */; };
 		848C13F22855B422002A2EF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848C13F12855B422002A2EF4 /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8458792C2896EF2F00862B50 /* HexagonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonView.swift; sourceTree = "<group>"; };
 		848C13EA2855B41F002A2EF4 /* DesignCodeiOS15.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignCodeiOS15.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		848C13ED2855B41F002A2EF4 /* DesignCodeiOS15App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignCodeiOS15App.swift; sourceTree = "<group>"; };
 		848C13EF2855B41F002A2EF4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				848C13ED2855B41F002A2EF4 /* DesignCodeiOS15App.swift */,
 				848C13EF2855B41F002A2EF4 /* ContentView.swift */,
 				84BA1E482884C73800617311 /* AccountView.swift */,
+				8458792C2896EF2F00862B50 /* HexagonView.swift */,
 				84BA1E4628833EB600617311 /* Styles.swift */,
 				848C13F12855B422002A2EF4 /* Assets.xcassets */,
 				848C13F32855B422002A2EF4 /* Preview Content */,
@@ -264,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84BA1E492884C73800617311 /* AccountView.swift in Sources */,
+				8458792D2896EF2F00862B50 /* HexagonView.swift in Sources */,
 				84BA1E4728833EB600617311 /* Styles.swift in Sources */,
 				848C13F02855B41F002A2EF4 /* ContentView.swift in Sources */,
 				848C13EE2855B41F002A2EF4 /* DesignCodeiOS15App.swift in Sources */,
